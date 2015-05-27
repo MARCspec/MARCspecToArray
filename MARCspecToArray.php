@@ -1,6 +1,6 @@
 <?php
 
-define('FIELDTAG','^(?<tag>[a-z0-9]{3,3}|[A-Z0-9]{3,3}|[0-9\.]{3,3})');
+define('FIELDTAG','^(?<tag>[a-z0-9\.]{3,3}|[A-Z0-9\.]{3,3}|[0-9\.]{3,3})');
 define('POSITIONORRANGE','(?:(?:(?:[0-9]+|#)\-(?:[0-9]+|#))|(?:[0-9]+|#))');
 define('INDEX','(?<index>\['.POSITIONORRANGE.'\])?');
 define('CHARPOS','(?<charpos>\/'.POSITIONORRANGE.')');
